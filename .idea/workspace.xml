@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bee38179-3712-47d7-8df9-27ba89a2e7a6" name="Default Changelist" comment="" />
+    <list default="true" id="bee38179-3712-47d7-8df9-27ba89a2e7a6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SecondTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SecondTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SecondTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SecondTest.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,11 +16,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -28,11 +32,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/SecondTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="42" column="42" lean-forward="true" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
+            <state relative-caret-position="1462">
+              <caret line="113" column="78" lean-forward="true" selection-start-line="113" selection-start-column="78" selection-end-line="113" selection-end-column="78" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1563372039578" expanded="true" signature="667:795" ph="..." />
+                <element signature="e#3657#3658#0" expanded="true" />
+                <element signature="e#3678#3679#0" expanded="true" />
+                <marker date="1563460492212" expanded="true" signature="869:997" ph="..." />
               </folding>
             </state>
           </provider>
@@ -46,6 +52,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -62,18 +71,20 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="359" />
-    <option name="y" value="66" />
-    <option name="width" value="1282" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="229" />
+    <option name="y" value="86" />
+    <option name="width" value="1416" />
     <option name="height" value="1169" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -103,8 +114,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -118,7 +131,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.SecondTest.test">
     <configuration name="SecondTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SecondTask" />
       <option name="PACKAGE_NAME" value="" />
@@ -128,8 +141,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SecondTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SecondTask" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SecondTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SecondTest.test" />
         <item itemvalue="JUnit.SecondTest" />
       </list>
     </recent_temporary>
@@ -148,67 +172,67 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SecondTest - 2019.07.17 at 15h 45m 49s.xml">
+    <history-entry file="SecondTest - 2019.07.17 at 21h 41m 36s.xml">
       <configuration name="SecondTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SecondTest - 2019.07.17 at 15h 48m 45s.xml">
+    <history-entry file="SecondTest - 2019.07.17 at 21h 42m 10s.xml">
       <configuration name="SecondTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SecondTest - 2019.07.17 at 16h 16m 35s.xml">
+    <history-entry file="SecondTest - 2019.07.17 at 22h 24m 48s.xml">
       <configuration name="SecondTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SecondTest - 2019.07.17 at 16h 20m 03s.xml">
+    <history-entry file="SecondTest - 2019.07.18 at 16h 18m 44s.xml">
       <configuration name="SecondTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SecondTest - 2019.07.17 at 16h 20m 16s.xml">
+    <history-entry file="SecondTest - 2019.07.18 at 16h 23m 40s.xml">
       <configuration name="SecondTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SecondTest - 2019.07.17 at 16h 28m 22s.xml">
+    <history-entry file="SecondTest - 2019.07.18 at 16h 34m 18s.xml">
       <configuration name="SecondTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SecondTest - 2019.07.17 at 16h 29m 10s.xml">
+    <history-entry file="SecondTest - 2019.07.18 at 17h 13m 02s.xml">
       <configuration name="SecondTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SecondTest - 2019.07.17 at 16h 31m 32s.xml">
+    <history-entry file="SecondTest - 2019.07.18 at 17h 16m 44s.xml">
       <configuration name="SecondTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SecondTest - 2019.07.17 at 16h 42m 05s.xml">
-      <configuration name="SecondTest" configurationId="JUnit" />
+    <history-entry file="SecondTest_test - 2019.07.18 at 17h 26m 14s.xml">
+      <configuration name="SecondTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SecondTest - 2019.07.17 at 16h 43m 39s.xml">
-      <configuration name="SecondTest" configurationId="JUnit" />
+    <history-entry file="SecondTest_test - 2019.07.18 at 17h 29m 18s.xml">
+      <configuration name="SecondTest.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="359" y="66" width="1282" height="1169" extended-state="0" />
+    <frame x="229" y="86" width="1416" height="1169" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2405892" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22271386" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32837406" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.36293435" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3291506" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.17953669" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3291506" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3262548" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
   <component name="XDebuggerManager">
@@ -216,21 +240,32 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/SecondTest.java</url>
-          <line>48</line>
+          <line>78</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/SecondTest.java</url>
-          <line>49</line>
+          <line>79</line>
           <properties />
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/SecondTest.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>input[contains(@name, 'surname')];</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>span[contains(text(), 'Страхование')]</expression-string>
         <language-id>JAVA</language-id>
@@ -244,6 +279,16 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar!/org/openqa/selenium/remote/RemoteWebDriver.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="208" selection-start-line="208" selection-end-line="208" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -251,13 +296,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SecondTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="42" column="42" lean-forward="true" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
+        <state relative-caret-position="1462">
+          <caret line="113" column="78" lean-forward="true" selection-start-line="113" selection-start-column="78" selection-end-line="113" selection-end-column="78" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1563372039578" expanded="true" signature="667:795" ph="..." />
+            <element signature="e#3657#3658#0" expanded="true" />
+            <element signature="e#3678#3679#0" expanded="true" />
+            <marker date="1563460492212" expanded="true" signature="869:997" ph="..." />
           </folding>
         </state>
       </provider>
