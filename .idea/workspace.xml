@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bee38179-3712-47d7-8df9-27ba89a2e7a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SecondTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SecondTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SecondTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SecondTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SecondTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SecondTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SecondTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,22 +25,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+            <state relative-caret-position="136">
+              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SecondTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/SecondTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1462">
-              <caret line="113" column="78" lean-forward="true" selection-start-line="113" selection-start-column="78" selection-end-line="113" selection-end-column="78" />
+            <state relative-caret-position="235">
+              <caret line="74" column="8" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3657#3658#0" expanded="true" />
-                <element signature="e#3678#3679#0" expanded="true" />
-                <marker date="1563460492212" expanded="true" signature="869:997" ph="..." />
+                <marker date="1563623958992" expanded="true" signature="820:948" ph="..." />
               </folding>
             </state>
           </provider>
@@ -59,8 +59,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/SecondTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/SecondTask.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SecondTest.java" />
       </list>
     </option>
   </component>
@@ -71,19 +73,20 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="229" />
-    <option name="y" value="86" />
-    <option name="width" value="1416" />
-    <option name="height" value="1169" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="219" />
+    <option name="y" value="60" />
+    <option name="width" value="1510" />
+    <option name="height" value="945" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -107,17 +110,32 @@
               <item name="SecondTask" type="b2602c69:ProjectViewProjectNode" />
               <item name="SecondTask" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SecondTask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SecondTask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -131,7 +149,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SecondTest.test">
+  <component name="RunManager" selected="JUnit.SecondTask">
+    <configuration name="SecondTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SecondTask" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SecondTask" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SecondTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SecondTask" />
       <option name="PACKAGE_NAME" value="" />
@@ -153,8 +180,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SecondTest.test" />
+        <item itemvalue="JUnit.SecondTask" />
         <item itemvalue="JUnit.SecondTest" />
+        <item itemvalue="JUnit.SecondTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -172,42 +200,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SecondTest - 2019.07.17 at 21h 41m 36s.xml">
-      <configuration name="SecondTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SecondTest - 2019.07.17 at 21h 42m 10s.xml">
-      <configuration name="SecondTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SecondTest - 2019.07.17 at 22h 24m 48s.xml">
-      <configuration name="SecondTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SecondTest - 2019.07.18 at 16h 18m 44s.xml">
-      <configuration name="SecondTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SecondTest - 2019.07.18 at 16h 23m 40s.xml">
-      <configuration name="SecondTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SecondTest - 2019.07.18 at 16h 34m 18s.xml">
-      <configuration name="SecondTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SecondTest - 2019.07.18 at 17h 13m 02s.xml">
-      <configuration name="SecondTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SecondTest - 2019.07.18 at 17h 16m 44s.xml">
-      <configuration name="SecondTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SecondTest_test - 2019.07.18 at 17h 26m 14s.xml">
+    <history-entry file="SecondTest_test - 2019.07.19 at 12h 46m 27s.xml">
       <configuration name="SecondTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SecondTest_test - 2019.07.18 at 17h 29m 18s.xml">
+    <history-entry file="SecondTest_test - 2019.07.19 at 12h 59m 24s.xml">
+      <configuration name="SecondTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SecondTest_test - 2019.07.19 at 13h 04m 55s.xml">
+      <configuration name="SecondTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SecondTest_test - 2019.07.19 at 13h 10m 09s.xml">
+      <configuration name="SecondTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SecondTest_test - 2019.07.19 at 13h 17m 49s.xml">
+      <configuration name="SecondTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SecondTest_test - 2019.07.19 at 13h 19m 08s.xml">
+      <configuration name="SecondTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SecondTest_test - 2019.07.19 at 13h 20m 57s.xml">
+      <configuration name="SecondTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SecondTest_test - 2019.07.19 at 13h 21m 16s.xml">
+      <configuration name="SecondTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SecondTest_test - 2019.07.19 at 13h 22m 40s.xml">
+      <configuration name="SecondTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SecondTest_test - 2019.07.19 at 14h 42m 04s.xml">
       <configuration name="SecondTest.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="229" y="86" width="1416" height="1169" extended-state="0" />
+    <frame x="219" y="60" width="1510" height="945" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22271386" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22275862" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -216,15 +244,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3291506" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.17953669" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.59362936" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.21921182" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3291506" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.36206895" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3262548" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32512316" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -234,30 +262,6 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/SecondTest.java</url>
-          <line>78</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/SecondTest.java</url>
-          <line>79</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/SecondTest.java</url>
-          <line>56</line>
-          <properties />
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
@@ -289,13 +293,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -303,18 +300,103 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SecondTest.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1462">
-          <caret line="113" column="78" lean-forward="true" selection-start-line="113" selection-start-column="78" selection-end-line="113" selection-end-column="78" />
+        <state relative-caret-position="136">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SecondTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SecondTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="74" column="8" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3657#3658#0" expanded="true" />
-            <element signature="e#3678#3679#0" expanded="true" />
-            <marker date="1563460492212" expanded="true" signature="869:997" ph="..." />
+            <marker date="1563623958992" expanded="true" signature="820:948" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>SecondTask</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

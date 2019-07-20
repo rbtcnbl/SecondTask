@@ -2,7 +2,6 @@ import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -46,35 +45,34 @@ public class SecondTest {
         driver.switchTo().window(h3);
 
 
-        //выбрать сумму страховой защиты ??
-        ////div[contains(@class, 'b-form-prog-box b-form-active-box')]
         waitSectionToDownload();
+
+        clickBtn("//section[contains(@class, 'b-form-section')][2]//div[contains(@class, 'b-form-prog-box')][1]");
 
         //оформить
         clickBtn("//span[contains(text(), 'Оформить')]");
 
 
         fillInputBySection("1", "insured0_surname", "Gorbulina");
-
-//        WebElement srnLine = driver.findElement(By.xpath("//input[contains(@name, 'insured0_surname')]"));
-//        String text1 = "Gorbulina";
-//        srnLine.sendKeys(text1);
-
-
-
-
-
-//        InputPaspot("Серия", "123456");
-//        InputPaspot("Номер", "123456");
-//        fillInputBySection("issueDate", "12052014");
-//        InputPaspot("Кем выдан", "фывафыва");
+        fillInputBySection("1", "insured0_name", "Alesya");
+        fillInputBySection("1", "insured0_birthDate", "28111997");
+        fillInputBySection("2", "surname", "Русанова");
+        driver.findElement(By.xpath("//section[contains(@class, 'b-form-section')][2]//input[contains(@placeholder, 'Имя')]")).sendKeys("Мария");
+        //Comments("2", "Имя", "Мария");
+        //fillInputBySection("2", "name", "Мария");
+        fillInputBySection("2", "middlename", "Леонидовна");
+        fillInputBySection("2", "birthDate", "14071997");
+        clickBtn("//input[contains(@name, 'female')]");
+        fillInputBySection("3", "passport_series", "1234");
+        fillInputBySection("3", "passport_number", "123456");
+        fillInputBySection("3", "issueDate", "20102015");
+        Comments("3", "Кем выдан","В ЦАО гор. Москвы");
 
 
         clickBtn("//span[contains(text(), 'Продолжить')]");
 
-//        Assert.assertTrue(driver.findElement(By.xpath("//*[text() = 'Заполнены не все обязательные поля']")).isEnabled());
-
-        checkError("phone", "некорректные данные");
+        Assert.assertTrue(driver.findElement(By.xpath("//*[text() = 'Заполнены не все обязательные поля']")).isEnabled());
+        
 
         driver.close();
         driver.quit();
@@ -85,36 +83,22 @@ public class SecondTest {
     }
 
     public String fillInputBySection(String numbOfSection, String name, String textToFill) {
-        String path = String.format("//section[contains(@class, 'b-form-section')][%s]//input[contains(@name, '%s')]");
+        String path = String.format("//section[contains(@class, 'b-form-section')][%s]//input[contains(@name, '%s')]", numbOfSection, name);
         driver.findElement(By.xpath(path)).sendKeys(textToFill);
         return driver.findElement(By.xpath(path)).getAttribute("value placeholder");
-//        String temp = "//*[contains(@name, '$s')]";
-//        String fulltext = String.format(temp, name);
-//        driver.findElement(By.xpath(fulltext)).sendKeys(textToFill);
     }
 
-//    public String InputPaspot(String section, String name, String textToFill) {
-//        String path;
-//        if (name.equals("Имя") || name.equals("Серия") ||name.equals("Номер")) {
-//            return fillInputBySection(section, name, textToFill);
-//
-//
-//        driver.findElement(By.xpath(path)).sendKeys(textToFill);
-//        return driver.findElement(By.xpath(path)).getAttribute("value placeholder");
-
-
-////        String temp = "//*[contains(@placeholder, '$s')]";
-////        String fulltext = String.format(temp, name);
-////        driver.findElement(By.xpath(fulltext)).sendKeys(textToFill);
-//    }
-
-    public void checkError(String name, String expectedText) {
-        String template = "//input[contains(@name, 'phone')]/following::span[contains(@class, 'b-text-field-error')]";
-        String fullxpath = String.format(template, name);
-        String actualText = driver.findElement(By.xpath(fullxpath)).getText();
-
-        Assert.assertEquals(expectedText, actualText);
+    public String Comments(String numbOfSection, String placeholder, String text) {
+       /* if(placeholder.equals("Имя")){
+         path = String.format("//section[contains(@class, 'b-form-section')][%s]//input[contains(@placeholder, '%s')]", numbOfSection, placeholder);
+        } else if (placeholder.equals("Кем выдан")){*/
+            String path = String.format("//section[contains(@class, 'b-form-section')][%s]//textarea[contains(@placeholder, '%s')]", numbOfSection, placeholder);
+       // }
+        //String path = String.format("//textarea[contains(@name, '%s')]", name);
+        driver.findElement(By.xpath(path)).sendKeys(text);
+        return driver.findElement(By.xpath(path)).getAttribute("value");
     }
+
 
     public void waitSectionToDownload() {
         WebDriverWait wait = new WebDriverWait(driver, 5000, 200);
