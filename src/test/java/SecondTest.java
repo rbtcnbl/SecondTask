@@ -72,7 +72,7 @@ public class SecondTest {
         clickBtn("//span[contains(text(), 'Продолжить')]");
 
         Assert.assertTrue(driver.findElement(By.xpath("//*[text() = 'Заполнены не все обязательные поля']")).isEnabled());
-        
+
 
         driver.close();
         driver.quit();
